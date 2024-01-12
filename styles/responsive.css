@@ -1,0 +1,28 @@
+/* Tablet or Medium Device Responsive */
+@media screen and (min-width: 576px) and (max-width: 960px) {
+    .nav-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .banner .content-container h2{
+        font-size: 3rem;
+    }
+    .banner .content-container p{
+        font-size: 1.5rem;
+        line-height: 40px;
+    }
+}
+/* Mobiles Device Responsive */
+@media screen and (max-width: 576px) {
+    .nav-container{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .banner .content-container h2{
+        font-size: 2rem;
+    }
+    .banner .content-container p{
+        font-size: 1rem;
+        line-height: 20px;
+    }
+}
