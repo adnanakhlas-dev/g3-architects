@@ -1,5 +1,6 @@
 /* Tablet or Medium Device Responsive */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+    /* Nav and Banner Styles */
     .nav-container{
         flex-direction: column;
         gap: 50px;
@@ -11,11 +12,27 @@
         font-size: 1.5rem;
         line-height: 40px;
     }
+    /* Features Style */
+    .features{
+        flex-direction: column;
+    }
+
+    .features .features-images{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+
+    .features .features-content{
+        text-align: center;
+    }
 }
 /* Mobiles Device Responsive */
 @media screen and (max-width: 576px) {
+    /* Nav and Banner Styles */
     .nav-container{
         flex-direction: column;
+        text-align: center;
         gap: 50px;
     }
     .banner .content-container h2{
@@ -24,5 +41,19 @@
     .banner .content-container p{
         font-size: 1rem;
         line-height: 20px;
+    }
+    /* Features Style */
+    .features{
+        flex-direction: column;
+    }
+
+    .features .features-images{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .features .features-content{
+        text-align: center;
     }
 }
