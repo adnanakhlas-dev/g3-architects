@@ -7,3 +7,10 @@
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
+:root{
+    --font-color-01: #131313;
+    --font-color-02: #424242;
+    --font-color-03: #727272;
+    --primary-color: #FF900E;
+}
