@@ -158,6 +158,10 @@ header {
     padding: 100px 0;
 }
 
+.facts-content-container{
+    text-align: center;
+}
+
 .facts-card-container{
     display: flex;
     justify-content: space-around;
@@ -185,4 +189,21 @@ header {
     font-size: 1.25rem;
     font-weight: 600;
     margin-top: 5px;
+}
+
+/* Sponsor Styles */
+.sponsor{
+    padding: 100px 0;
+}
+
+.sponsor-content-container{
+    text-align: center;
+}
+
+.sponsor-image-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    margin-top: 50px;
 }

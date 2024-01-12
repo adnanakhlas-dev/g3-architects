@@ -27,7 +27,7 @@
 
     /* Features Style */
     .features {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .features .features-images {
@@ -48,6 +48,12 @@
     .facts-card-container {
         flex-direction: column;
         gap: 20px;
+    }
+
+    /* Sponsor Styles */
+    .sponsor-image-container{
+        flex-direction: column;
+        gap: 30px;
     }
 }
 
@@ -97,5 +103,11 @@
     .facts-card-container {
         flex-direction: column;
         gap: 20px;
+    }
+
+    /* Sponsor Styles */
+    .sponsor-image-container{
+        flex-direction: column;
+        gap: 30px;
     }
 }
