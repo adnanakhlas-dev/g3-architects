@@ -1,78 +1,100 @@
+/* Laptop or Large Device Responsive */
+@media screen and (min-width: 960px) and (max-width: 1024px) {
+
+    /* Features Style */
+    .features {
+        flex-direction: column-reverse;
+    }
+}
+
 /* Tablet or Medium Device Responsive */
 @media screen and (min-width: 576px) and (max-width: 960px) {
+
     /* Nav and Banner Styles */
-    .nav-container{
+    .nav-container {
         flex-direction: column;
         gap: 50px;
     }
-    .banner .banner-section-container h2{
+
+    .banner .banner-section-container h2 {
         font-size: 3rem;
     }
-    .banner .banner-section-container p{
+
+    .banner .banner-section-container p {
         font-size: 1.5rem;
         line-height: 40px;
     }
+
     /* Features Style */
-    .features{
+    .features {
         flex-direction: column;
     }
 
-    .features .features-images{
+    .features .features-images {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 20px;
     }
 
-    .features .features-content{
+    .features .features-content {
         text-align: center;
     }
 
-     /* Facts Styles */
-     .facts-content-container{
+    /* Facts Styles */
+    .facts-content-container {
         text-align: center;
     }
 
-    .facts-card-container{
+    .facts-card-container {
         flex-direction: column;
         gap: 20px;
     }
 }
+
 /* Mobiles Device Responsive */
 @media screen and (max-width: 576px) {
+
     /* Nav and Banner Styles */
-    .nav-container{
+    .nav-container {
         flex-direction: column;
         text-align: center;
         gap: 50px;
     }
-    .banner .banner-section-container h2{
+
+    .nav-container nav>ul {
+        gap: 10px;
+    }
+
+    .banner .banner-section-container h2 {
         font-size: 2rem;
     }
-    .banner .banner-section-container p{
+
+    .banner .banner-section-container p {
         font-size: 1rem;
         line-height: 20px;
     }
+
     /* Features Style */
-    .features{
+    .features {
         flex-direction: column;
     }
 
-    .features .features-images{
+    .features .features-images {
         display: grid;
         grid-template-columns: 1fr;
         gap: 20px;
     }
 
-    .features .features-content{
+    .features .features-content {
         text-align: center;
     }
 
     /* Facts Styles */
-    .facts-content-container{
+    .facts-content-container {
         text-align: center;
     }
 
-    .facts-card-container{
+    .facts-card-container {
         flex-direction: column;
         gap: 20px;
     }
