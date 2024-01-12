@@ -13,4 +13,11 @@
     --font-color-02: #424242;
     --font-color-03: #727272;
     --primary-color: #FF900E;
+    --background-color: #FF900E1A;
+}
+
+.container{
+    width: 75%;
+    max-width: 1440px;
+    margin: 0 auto; 
 }
