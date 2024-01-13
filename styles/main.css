@@ -54,6 +54,17 @@ p {
     margin: 32px 0;
 }
 
+
+.banner-content-container,
+.features-content,
+.facts-content-container,
+.sponsor-content-container,
+.footer-content-container
+{
+    width: 50%;
+    margin: 0 auto;
+}
+
 /* Header Styles */
 header {
     background-color: var(--background-color);
@@ -226,9 +237,13 @@ footer {
     margin-bottom: 32px;
 }
 
-.footer-container .footer-form form{
+.footer-container .footer-form form {
     display: flex;
     flex-direction: column;
+}
+
+.footer-content-container{
+    margin: 0;
 }
 
 .footer-container .footer-form form input {
@@ -240,5 +255,5 @@ footer {
     color: var(--font-color-01);
     font-size: 1.12rem;
     margin-bottom: 20px;
-    
+
 }
