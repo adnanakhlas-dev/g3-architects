@@ -155,6 +155,10 @@ header {
     gap: 20px;
 }
 
+.features .features-images img{ 
+    width: 100%;
+}
+
 .features .features-content h2 span.orange {
     color: var(--primary-color);
 }
