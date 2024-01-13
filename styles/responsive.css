@@ -87,6 +87,10 @@
         flex-direction: column;
     }
 
+    .footer-content-container{
+        margin: 0;
+    }
+
     .footer-container .footer-form form {
         display: flex;
         flex-direction: column;
