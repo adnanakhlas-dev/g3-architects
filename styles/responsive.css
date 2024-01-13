@@ -135,7 +135,7 @@
 
     /* Features Style */
     .features {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 
     .features .features-images {
